@@ -2,11 +2,10 @@
 
 [Roadmap:](https://swagger.io/docs/specification/basic-structure/)
 
--   [ ] Metadata
--   [ ] Servers
--   [ ] Paths
--   [ ] Paths
--   [ ] Parameters
+-   [x] Metadata
+-   [x] Servers
+-   [x] Paths
+-   [x] Parameters
 -   [ ] Request Body
 -   [ ] Responses
 -   [ ] Input and Output Models
