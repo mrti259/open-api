@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+.direnv
+node_modules
+build

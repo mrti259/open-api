@@ -1,0 +1,29 @@
+{
+  "name": "open-api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./build/src",
+  "files": [
+    "build/package.json",
+    "build/src/**"
+  ],
+  "scripts": {
+    "test": "ts-node test/index.ts",
+    "prepare": "yarn build",
+    "prebuild": "yarn clean",
+    "build": "tsc",
+    "postbuild": "cp package.json build",
+    "prettier": "prettier --write .",
+    "clean": "rm -rf ./build"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/baretest": "^2.0.0",
+    "@types/node": "^22.1.0",
+    "baretest": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "prettier": "2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
